@@ -1,0 +1,1349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>934</width>
+    <height>754</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QToolBox" name="toolBox">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>921</width>
+      <height>701</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="page">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>921</width>
+       <height>639</height>
+      </rect>
+     </property>
+     <attribute name="label">
+      <string>Timetable</string>
+     </attribute>
+     <widget class="QTabWidget" name="tabWidgetMon">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>921</width>
+        <height>661</height>
+       </rect>
+      </property>
+      <property name="currentIndex">
+       <number>4</number>
+      </property>
+      <widget class="QWidget" name="tabMon">
+       <attribute name="title">
+        <string>Monday</string>
+       </attribute>
+       <widget class="QWidget" name="verticalLayoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>20</y>
+          <width>21</width>
+          <height>581</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <widget class="QLabel" name="label_3">
+           <property name="text">
+            <string>1</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_2">
+           <property name="text">
+            <string>2</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label">
+           <property name="text">
+            <string>3</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_5">
+           <property name="text">
+            <string>4</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_6">
+           <property name="text">
+            <string>5</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_7">
+           <property name="text">
+            <string>6</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_8">
+           <property name="text">
+            <string>7</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_4">
+           <property name="text">
+            <string>8</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="verticalLayoutWidget_3">
+        <property name="geometry">
+         <rect>
+          <x>96</x>
+          <y>20</y>
+          <width>171</width>
+          <height>604</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <item>
+          <widget class="QTextEdit" name="textEdit_9"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_10"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_11"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_12"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_13"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_14"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_15"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_16"/>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="verticalLayoutWidget_4">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>20</y>
+          <width>72</width>
+          <height>604</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_4">
+         <item>
+          <widget class="QTextEdit" name="textEdit_17"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_18"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_19"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_20"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_21"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_22"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_23"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_24"/>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="verticalLayoutWidget_5">
+        <property name="geometry">
+         <rect>
+          <x>270</x>
+          <y>20</y>
+          <width>441</width>
+          <height>604</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_5">
+         <item>
+          <widget class="QTextEdit" name="textEdit_25"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_26"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_27"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_28"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_29"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_30"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_31"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_32"/>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QLabel" name="label_9">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>0</y>
+          <width>67</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>TIME</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_10">
+        <property name="geometry">
+         <rect>
+          <x>140</x>
+          <y>0</y>
+          <width>67</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>SUBJECT</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_11">
+        <property name="geometry">
+         <rect>
+          <x>440</x>
+          <y>0</y>
+          <width>141</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>HOMEWORK</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="">
+        <property name="geometry">
+         <rect>
+          <x>770</x>
+          <y>90</y>
+          <width>91</width>
+          <height>441</height>
+         </rect>
+        </property>
+        <layout class="QFormLayout" name="formLayout">
+         <item row="0" column="0">
+          <widget class="QPushButton" name="pushButtonWrite">
+           <property name="text">
+            <string>WRITE</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QPushButton" name="pushButtonRead">
+           <property name="text">
+            <string>READ</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QPushButton" name="pushButtonExit">
+           <property name="text">
+            <string>EXIT</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_2">
+       <attribute name="title">
+        <string>Tuesday</string>
+       </attribute>
+       <widget class="QLabel" name="label_12">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>0</y>
+          <width>67</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>TIME</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="layoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>770</x>
+          <y>90</y>
+          <width>91</width>
+          <height>441</height>
+         </rect>
+        </property>
+        <layout class="QFormLayout" name="formLayout_2">
+         <item row="0" column="0">
+          <widget class="QPushButton" name="pushButtonWrite_2">
+           <property name="text">
+            <string>WRITE</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QPushButton" name="pushButtonRead_2">
+           <property name="text">
+            <string>READ</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QPushButton" name="pushButtonExit_2">
+           <property name="text">
+            <string>EXIT</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="verticalLayoutWidget_6">
+        <property name="geometry">
+         <rect>
+          <x>270</x>
+          <y>20</y>
+          <width>441</width>
+          <height>604</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_6">
+         <item>
+          <widget class="QTextEdit" name="textEdit_33"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_34"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_35"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_36"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_37"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_38"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_39"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_40"/>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="verticalLayoutWidget_2">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>20</y>
+          <width>21</width>
+          <height>581</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <widget class="QLabel" name="label_13">
+           <property name="text">
+            <string>1</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_14">
+           <property name="text">
+            <string>2</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_15">
+           <property name="text">
+            <string>3</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_16">
+           <property name="text">
+            <string>4</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_17">
+           <property name="text">
+            <string>5</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_18">
+           <property name="text">
+            <string>6</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_19">
+           <property name="text">
+            <string>7</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_20">
+           <property name="text">
+            <string>8</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="verticalLayoutWidget_7">
+        <property name="geometry">
+         <rect>
+          <x>96</x>
+          <y>20</y>
+          <width>171</width>
+          <height>604</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_7">
+         <item>
+          <widget class="QTextEdit" name="textEdit_41"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_42"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_43"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_44"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_45"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_46"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_47"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_48"/>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QLabel" name="label_21">
+        <property name="geometry">
+         <rect>
+          <x>440</x>
+          <y>0</y>
+          <width>141</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>HOMEWORK</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_22">
+        <property name="geometry">
+         <rect>
+          <x>140</x>
+          <y>0</y>
+          <width>67</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>SUBJECT</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="verticalLayoutWidget_8">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>20</y>
+          <width>72</width>
+          <height>604</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_8">
+         <item>
+          <widget class="QTextEdit" name="textEdit_49"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_50"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_51"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_52"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_53"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_54"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_55"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_56"/>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_3">
+       <attribute name="title">
+        <string>Wednesday</string>
+       </attribute>
+       <widget class="QLabel" name="label_23">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>0</y>
+          <width>67</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>TIME</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="layoutWidget_2">
+        <property name="geometry">
+         <rect>
+          <x>770</x>
+          <y>90</y>
+          <width>91</width>
+          <height>441</height>
+         </rect>
+        </property>
+        <layout class="QFormLayout" name="formLayout_3">
+         <item row="0" column="0">
+          <widget class="QPushButton" name="pushButtonWrite_3">
+           <property name="text">
+            <string>WRITE</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QPushButton" name="pushButtonRead_3">
+           <property name="text">
+            <string>READ</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QPushButton" name="pushButtonExit_3">
+           <property name="text">
+            <string>EXIT</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="verticalLayoutWidget_9">
+        <property name="geometry">
+         <rect>
+          <x>270</x>
+          <y>20</y>
+          <width>441</width>
+          <height>604</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_9">
+         <item>
+          <widget class="QTextEdit" name="textEdit_57"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_58"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_59"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_60"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_61"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_62"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_63"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_64"/>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="verticalLayoutWidget_10">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>20</y>
+          <width>21</width>
+          <height>581</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_10">
+         <item>
+          <widget class="QLabel" name="label_24">
+           <property name="text">
+            <string>1</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_25">
+           <property name="text">
+            <string>2</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_26">
+           <property name="text">
+            <string>3</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_27">
+           <property name="text">
+            <string>4</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_28">
+           <property name="text">
+            <string>5</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_29">
+           <property name="text">
+            <string>6</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_30">
+           <property name="text">
+            <string>7</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_31">
+           <property name="text">
+            <string>8</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="verticalLayoutWidget_11">
+        <property name="geometry">
+         <rect>
+          <x>96</x>
+          <y>20</y>
+          <width>171</width>
+          <height>604</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_11">
+         <item>
+          <widget class="QTextEdit" name="textEdit_65"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_66"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_67"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_68"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_69"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_70"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_71"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_72"/>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QLabel" name="label_32">
+        <property name="geometry">
+         <rect>
+          <x>440</x>
+          <y>0</y>
+          <width>141</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>HOMEWORK</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_33">
+        <property name="geometry">
+         <rect>
+          <x>140</x>
+          <y>0</y>
+          <width>67</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>SUBJECT</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="verticalLayoutWidget_12">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>20</y>
+          <width>72</width>
+          <height>604</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_12">
+         <item>
+          <widget class="QTextEdit" name="textEdit_73"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_74"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_75"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_76"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_77"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_78"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_79"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_80"/>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_4">
+       <attribute name="title">
+        <string>Thursday</string>
+       </attribute>
+       <widget class="QLabel" name="label_34">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>0</y>
+          <width>67</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>TIME</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="layoutWidget_3">
+        <property name="geometry">
+         <rect>
+          <x>770</x>
+          <y>90</y>
+          <width>91</width>
+          <height>441</height>
+         </rect>
+        </property>
+        <layout class="QFormLayout" name="formLayout_4">
+         <item row="0" column="0">
+          <widget class="QPushButton" name="pushButtonWrite_4">
+           <property name="text">
+            <string>WRITE</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QPushButton" name="pushButtonRead_4">
+           <property name="text">
+            <string>READ</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QPushButton" name="pushButtonExit_4">
+           <property name="text">
+            <string>EXIT</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="verticalLayoutWidget_13">
+        <property name="geometry">
+         <rect>
+          <x>270</x>
+          <y>20</y>
+          <width>441</width>
+          <height>604</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_13">
+         <item>
+          <widget class="QTextEdit" name="textEdit_81"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_82"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_83"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_84"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_85"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_86"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_87"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_88"/>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="verticalLayoutWidget_14">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>20</y>
+          <width>21</width>
+          <height>581</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_14">
+         <item>
+          <widget class="QLabel" name="label_35">
+           <property name="text">
+            <string>1</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_36">
+           <property name="text">
+            <string>2</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_37">
+           <property name="text">
+            <string>3</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_38">
+           <property name="text">
+            <string>4</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_39">
+           <property name="text">
+            <string>5</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_40">
+           <property name="text">
+            <string>6</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_41">
+           <property name="text">
+            <string>7</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_42">
+           <property name="text">
+            <string>8</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="verticalLayoutWidget_15">
+        <property name="geometry">
+         <rect>
+          <x>96</x>
+          <y>20</y>
+          <width>171</width>
+          <height>604</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_15">
+         <item>
+          <widget class="QTextEdit" name="textEdit_89"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_90"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_91"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_92"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_93"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_94"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_95"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_96"/>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QLabel" name="label_43">
+        <property name="geometry">
+         <rect>
+          <x>440</x>
+          <y>0</y>
+          <width>141</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>HOMEWORK</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_44">
+        <property name="geometry">
+         <rect>
+          <x>140</x>
+          <y>0</y>
+          <width>67</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>SUBJECT</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="verticalLayoutWidget_16">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>20</y>
+          <width>72</width>
+          <height>604</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_16">
+         <item>
+          <widget class="QTextEdit" name="textEdit_97"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_98"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_99"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_100"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_101"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_102"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_103"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_104"/>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_5">
+       <attribute name="title">
+        <string>Friday</string>
+       </attribute>
+       <widget class="QLabel" name="label_45">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>0</y>
+          <width>67</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>TIME</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="layoutWidget_4">
+        <property name="geometry">
+         <rect>
+          <x>770</x>
+          <y>90</y>
+          <width>91</width>
+          <height>441</height>
+         </rect>
+        </property>
+        <layout class="QFormLayout" name="formLayout_5">
+         <item row="0" column="0">
+          <widget class="QPushButton" name="pushButtonWrite_5">
+           <property name="text">
+            <string>WRITE</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QPushButton" name="pushButtonRead_5">
+           <property name="text">
+            <string>READ</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QPushButton" name="pushButtonExit_5">
+           <property name="text">
+            <string>EXIT</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="verticalLayoutWidget_17">
+        <property name="geometry">
+         <rect>
+          <x>270</x>
+          <y>20</y>
+          <width>441</width>
+          <height>604</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_17">
+         <item>
+          <widget class="QTextEdit" name="textEdit_105"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_106"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_107"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_108"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_109"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_110"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_111"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_112"/>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="verticalLayoutWidget_18">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>20</y>
+          <width>21</width>
+          <height>581</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_18">
+         <item>
+          <widget class="QLabel" name="label_46">
+           <property name="text">
+            <string>1</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_47">
+           <property name="text">
+            <string>2</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_48">
+           <property name="text">
+            <string>3</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_49">
+           <property name="text">
+            <string>4</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_50">
+           <property name="text">
+            <string>5</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_51">
+           <property name="text">
+            <string>6</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_52">
+           <property name="text">
+            <string>7</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_53">
+           <property name="text">
+            <string>8</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="verticalLayoutWidget_19">
+        <property name="geometry">
+         <rect>
+          <x>96</x>
+          <y>20</y>
+          <width>171</width>
+          <height>604</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_19">
+         <item>
+          <widget class="QTextEdit" name="textEdit_113"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_114"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_115"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_116"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_117"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_118"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_119"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_120"/>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QLabel" name="label_54">
+        <property name="geometry">
+         <rect>
+          <x>440</x>
+          <y>0</y>
+          <width>141</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>HOMEWORK</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_55">
+        <property name="geometry">
+         <rect>
+          <x>140</x>
+          <y>0</y>
+          <width>67</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>SUBJECT</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="verticalLayoutWidget_20">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>20</y>
+          <width>72</width>
+          <height>604</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_20">
+         <item>
+          <widget class="QTextEdit" name="textEdit_121"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_122"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_123"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_124"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_125"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_126"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_127"/>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_128"/>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>921</width>
+       <height>639</height>
+      </rect>
+     </property>
+     <attribute name="label">
+      <string>Notes</string>
+     </attribute>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>934</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
