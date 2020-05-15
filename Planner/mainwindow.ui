@@ -1,0 +1,4475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1337</width>
+    <height>972</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background:	rgb(79, 12, 81);</string>
+  </property>
+  <property name="documentMode">
+   <bool>false</bool>
+  </property>
+  <property name="unifiedTitleAndToolBarOnMac">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">border-color: rgb(46, 52, 54);
+</string>
+   </property>
+   <widget class="QGroupBox" name="groupBoxShedule">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>0</y>
+      <width>1231</width>
+      <height>681</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QGroupBox {
+font-family: &quot;Dosis&quot;;
+font-size:10pt;
+color:white;
+border:0pt;
+}</string>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QGroupBox" name="groupBoxTue">
+     <property name="geometry">
+      <rect>
+       <x>1</x>
+       <y>30</y>
+       <width>921</width>
+       <height>651</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QGroupBox {
+font-family: &quot;Dosis&quot;;
+font-size:10pt;
+color:white;
+border:0pt;
+}
+QLabel {
+font-family: &quot;Dosis&quot;;
+background:	rgb(79, 12, 81);
+font-size:10pt;
+border:0pt;
+color:white;
+}
+QTextEdit{
+font-size:10pt;
+border: 1px solid black;
+border-radius: 10px;
+color:white;
+}
+</string>
+     </property>
+     <property name="title">
+      <string>Tuesday</string>
+     </property>
+     <widget class="QWidget" name="verticalLayoutWidget_6">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>40</y>
+        <width>571</width>
+        <height>604</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_6">
+       <item>
+        <widget class="QTextEdit" name="textEdit24"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit25"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit26"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit27"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit28"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit29"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit30"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit31"/>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QLabel" name="label_12">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>20</y>
+        <width>67</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+font-family: &quot;Dosis&quot;;
+background:	rgb(79, 12, 81);
+font-size:10pt;
+color:white;
+}
+
+QLabel:hover {
+font-family: &quot;Dosis&quot;, sans-serif;
+border: 1px solid white;
+background:	#511c66;
+color:white;
+font-size:11pt;
+}</string>
+      </property>
+      <property name="text">
+       <string>SUBJECT</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget_8">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>40</y>
+        <width>91</width>
+        <height>604</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_8">
+       <item>
+        <widget class="QTextEdit" name="textEdit40"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit41"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit42"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit43"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit44"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit45"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit46"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit47"/>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QLabel" name="label_21">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>20</y>
+        <width>67</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+font-family: &quot;Dosis&quot;;
+background:	rgb(79, 12, 81);
+font-size:10pt;
+color:white;
+}
+
+QLabel:hover {
+font-family: &quot;Dosis&quot;, sans-serif;
+border: 1px solid white;
+background:	#511c66;
+color:white;
+font-size:11pt;
+}</string>
+      </property>
+      <property name="text">
+       <string>TIME</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_22">
+      <property name="geometry">
+       <rect>
+        <x>610</x>
+        <y>20</y>
+        <width>141</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+font-family: &quot;Dosis&quot;;
+background:	rgb(79, 12, 81);
+font-size:10pt;
+color:white;
+}
+
+QLabel:hover {
+font-family: &quot;Dosis&quot;, sans-serif;
+border: 1px solid white;
+background:	#511c66;
+color:white;
+font-size:11pt;
+}</string>
+      </property>
+      <property name="text">
+       <string>HOMEWORK</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget_7">
+      <property name="geometry">
+       <rect>
+        <x>116</x>
+        <y>40</y>
+        <width>231</width>
+        <height>604</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_7">
+       <item>
+        <widget class="QTextEdit" name="textEdit32"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit33"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit34"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit35"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit36"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit37"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit38"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit39"/>
+       </item>
+      </layout>
+      <zorder>textEdit32</zorder>
+      <zorder>textEdit33</zorder>
+      <zorder>textEdit34</zorder>
+      <zorder>textEdit35</zorder>
+      <zorder>textEdit36</zorder>
+      <zorder>textEdit37</zorder>
+      <zorder>textEdit39</zorder>
+      <zorder>textEdit38</zorder>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>40</y>
+        <width>16</width>
+        <height>601</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QLabel" name="label_13">
+         <property name="styleSheet">
+          <string notr="true">QLabel {
+font-family: &quot;Dosis&quot;;
+font-size:10pt;
+color:white;
+}</string>
+         </property>
+         <property name="text">
+          <string>1</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_14">
+         <property name="styleSheet">
+          <string notr="true">QLabel {
+font-family: &quot;Dosis&quot;;
+font-size:10pt;
+color:white;
+}</string>
+         </property>
+         <property name="text">
+          <string>2</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_15">
+         <property name="styleSheet">
+          <string notr="true">QLabel {
+font-family: &quot;Dosis&quot;;
+font-size:10pt;
+color:white;
+}</string>
+         </property>
+         <property name="text">
+          <string>3</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_16">
+         <property name="styleSheet">
+          <string notr="true">QLabel {
+font-family: &quot;Dosis&quot;;
+font-size:10pt;
+color:white;
+}</string>
+         </property>
+         <property name="text">
+          <string>4</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_17">
+         <property name="styleSheet">
+          <string notr="true">QLabel {
+font-family: &quot;Dosis&quot;;
+font-size:10pt;
+color:white;
+}</string>
+         </property>
+         <property name="text">
+          <string>5</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_18">
+         <property name="styleSheet">
+          <string notr="true">QLabel {
+font-family: &quot;Dosis&quot;;
+font-size:10pt;
+color:white;
+}</string>
+         </property>
+         <property name="text">
+          <string>6</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_19">
+         <property name="styleSheet">
+          <string notr="true">QLabel {
+font-family: &quot;Dosis&quot;;
+font-size:10pt;
+color:white;
+}</string>
+         </property>
+         <property name="text">
+          <string>7</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_20">
+         <property name="styleSheet">
+          <string notr="true">QLabel {
+font-family: &quot;Dosis&quot;;
+font-size:10pt;
+color:white;
+}</string>
+         </property>
+         <property name="text">
+          <string>8</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QGroupBox" name="groupBoxTueHom">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>40</y>
+        <width>571</width>
+        <height>611</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QWidget" name="verticalLayoutWidget_23">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>571</width>
+         <height>604</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_23">
+        <item>
+         <widget class="QTextEdit" name="textEdit176"/>
+        </item>
+        <item>
+         <widget class="QTextEdit" name="textEdit177"/>
+        </item>
+        <item>
+         <widget class="QTextEdit" name="textEdit178"/>
+        </item>
+        <item>
+         <widget class="QTextEdit" name="textEdit179"/>
+        </item>
+        <item>
+         <widget class="QTextEdit" name="textEdit180"/>
+        </item>
+        <item>
+         <widget class="QTextEdit" name="textEdit181"/>
+        </item>
+        <item>
+         <widget class="QTextEdit" name="textEdit182"/>
+        </item>
+        <item>
+         <widget class="QTextEdit" name="textEdit183"/>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBoxWed">
+     <property name="geometry">
+      <rect>
+       <x>1</x>
+       <y>30</y>
+       <width>921</width>
+       <height>651</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QGroupBox {
+font-family: &quot;Dosis&quot;;
+font-size:10pt;
+color:white;
+border:0pt;
+}
+QLabel {
+font-family: &quot;Dosis&quot;;
+background:	rgb(79, 12, 81);
+font-size:10pt;
+border:0pt;
+color:white;
+}
+QTextEdit{
+font-size:10pt;
+border: 1px solid black;
+border-radius: 10px;
+color:white;
+}
+</string>
+     </property>
+     <property name="title">
+      <string>Wednesday</string>
+     </property>
+     <widget class="QLabel" name="label_33">
+      <property name="geometry">
+       <rect>
+        <x>610</x>
+        <y>20</y>
+        <width>141</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+font-family: &quot;Dosis&quot;;
+background:	rgb(79, 12, 81);
+font-size:10pt;
+color:white;
+}
+
+QLabel:hover {
+font-family: &quot;Dosis&quot;, sans-serif;
+border: 1px solid white;
+background:	#511c66;
+color:white;
+font-size:11pt;
+}</string>
+      </property>
+      <property name="text">
+       <string>HOMEWORK</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_32">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>20</y>
+        <width>67</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+font-family: &quot;Dosis&quot;;
+background:	rgb(79, 12, 81);
+font-size:10pt;
+color:white;
+}
+
+QLabel:hover {
+font-family: &quot;Dosis&quot;, sans-serif;
+border: 1px solid white;
+background:	#511c66;
+color:white;
+font-size:11pt;
+}</string>
+      </property>
+      <property name="text">
+       <string>TIME</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget_9">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>40</y>
+        <width>571</width>
+        <height>604</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_9">
+       <item>
+        <widget class="QTextEdit" name="textEdit64"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit65"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit66"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit67"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit68"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit69"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit70"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit71"/>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget_11">
+      <property name="geometry">
+       <rect>
+        <x>116</x>
+        <y>40</y>
+        <width>231</width>
+        <height>604</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_11">
+       <item>
+        <widget class="QTextEdit" name="textEdit48">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>87</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit49"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit50"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit51"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit52"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit53"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit54"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit55"/>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget_12">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>40</y>
+        <width>91</width>
+        <height>604</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_12">
+       <item alignment="Qt::AlignVCenter">
+        <widget class="QTextEdit" name="textEdit57">
+         <property name="mouseTracking">
+          <bool>false</bool>
+         </property>
+         <property name="acceptDrops">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit56"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit58"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit60"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit59"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit61"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit62"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit63"/>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget_10">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>40</y>
+        <width>16</width>
+        <height>601</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_10">
+       <item>
+        <widget class="QLabel" name="label_24">
+         <property name="styleSheet">
+          <string notr="true">QLabel {
+font-family: &quot;Dosis&quot;;
+font-size:10pt;
+color:white;
+}</string>
+         </property>
+         <property name="text">
+          <string>1</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_25">
+         <property name="styleSheet">
+          <string notr="true">QLabel {
+font-family: &quot;Dosis&quot;;
+font-size:10pt;
+color:white;
+}</string>
+         </property>
+         <property name="text">
+          <string>2</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_26">
+         <property name="styleSheet">
+          <string notr="true">QLabel {
+font-family: &quot;Dosis&quot;;
+font-size:10pt;
+color:white;
+}</string>
+         </property>
+         <property name="text">
+          <string>3</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_27">
+         <property name="styleSheet">
+          <string notr="true">QLabel {
+font-family: &quot;Dosis&quot;;
+font-size:10pt;
+color:white;
+}</string>
+         </property>
+         <property name="text">
+          <string>4</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_28">
+         <property name="styleSheet">
+          <string notr="true">QLabel {
+font-family: &quot;Dosis&quot;;
+font-size:10pt;
+color:white;
+}</string>
+         </property>
+         <property name="text">
+          <string>5</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_29">
+         <property name="styleSheet">
+          <string notr="true">QLabel {
+font-family: &quot;Dosis&quot;;
+font-size:10pt;
+color:white;
+}</string>
+         </property>
+         <property name="text">
+          <string>6</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_30">
+         <property name="styleSheet">
+          <string notr="true">QLabel {
+font-family: &quot;Dosis&quot;;
+font-size:10pt;
+color:white;
+}</string>
+         </property>
+         <property name="text">
+          <string>7</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_31">
+         <property name="maximumSize">
+          <size>
+           <width>19</width>
+           <height>67</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel {
+font-family: &quot;Dosis&quot;;
+font-size:10pt;
+color:white;
+}</string>
+         </property>
+         <property name="text">
+          <string>8</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QLabel" name="label_23">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>20</y>
+        <width>81</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+font-family: &quot;Dosis&quot;;
+background:	rgb(79, 12, 81);
+font-size:10pt;
+color:white;
+}
+
+QLabel:hover {
+font-family: &quot;Dosis&quot;, sans-serif;
+border: 1px solid white;
+background:	#511c66;
+color:white;
+font-size:11pt;
+}</string>
+      </property>
+      <property name="text">
+       <string>SUBJECT</string>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBoxWedHom">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>40</y>
+        <width>571</width>
+        <height>601</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QGroupBox {
+font-family: &quot;Dosis&quot;;
+font-size:10pt;
+color:white;
+}</string>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QWidget" name="verticalLayoutWidget_24">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>571</width>
+         <height>604</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_24">
+        <item>
+         <widget class="QTextEdit" name="textEdit184"/>
+        </item>
+        <item>
+         <widget class="QTextEdit" name="textEdit185"/>
+        </item>
+        <item>
+         <widget class="QTextEdit" name="textEdit186"/>
+        </item>
+        <item>
+         <widget class="QTextEdit" name="textEdit187"/>
+        </item>
+        <item>
+         <widget class="QTextEdit" name="textEdit188"/>
+        </item>
+        <item>
+         <widget class="QTextEdit" name="textEdit189"/>
+        </item>
+        <item>
+         <widget class="QTextEdit" name="textEdit190"/>
+        </item>
+        <item>
+         <widget class="QTextEdit" name="textEdit191"/>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBoxThu">
+     <property name="geometry">
+      <rect>
+       <x>1</x>
+       <y>30</y>
+       <width>921</width>
+       <height>651</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QGroupBox {
+font-family: &quot;Dosis&quot;;
+font-size:10pt;
+color:white;
+border:0pt;
+}
+QLabel {
+font-family: &quot;Dosis&quot;;
+background:	rgb(79, 12, 81);
+font-size:10pt;
+border:0pt;
+color:white;
+}
+QTextEdit{
+font-size:10pt;
+border: 1px solid black;
+border-radius: 10px;
+color:white;
+}
+
+</string>
+     </property>
+     <property name="title">
+      <string>Thursday</string>
+     </property>
+     <widget class="QWidget" name="verticalLayoutWidget_14">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>40</y>
+        <width>21</width>
+        <height>601</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_14">
+       <item>
+        <widget class="QLabel" name="label_35">
+         <property name="text">
+          <string>1</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_36">
+         <property name="text">
+          <string>2</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_37">
+         <property name="text">
+          <string>3</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_38">
+         <property name="text">
+          <string>4</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_39">
+         <property name="text">
+          <string>5</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_40">
+         <property name="text">
+          <string>6</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_41">
+         <property name="text">
+          <string>7</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_42">
+         <property name="text">
+          <string>8</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget_16">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>40</y>
+        <width>91</width>
+        <height>604</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_16">
+       <item>
+        <widget class="QTextEdit" name="textEdit89"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit91"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit92"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit88"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit93"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit90"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit94"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit95"/>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QLabel" name="label_34">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>20</y>
+        <width>67</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+font-family: &quot;Dosis&quot;;
+background:	rgb(79, 12, 81);
+font-size:10pt;
+color:white;
+}
+
+QLabel:hover {
+font-family: &quot;Dosis&quot;, sans-serif;
+border: 1px solid white;
+background:	#511c66;
+color:white;
+font-size:11pt;
+}</string>
+      </property>
+      <property name="text">
+       <string>SUBJECT</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_44">
+      <property name="geometry">
+       <rect>
+        <x>610</x>
+        <y>20</y>
+        <width>141</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+font-family: &quot;Dosis&quot;;
+background:	rgb(79, 12, 81);
+font-size:10pt;
+color:white;
+}
+
+QLabel:hover {
+font-family: &quot;Dosis&quot;, sans-serif;
+border: 1px solid white;
+background:	#511c66;
+color:white;
+font-size:11pt;
+}</string>
+      </property>
+      <property name="text">
+       <string>HOMEWORK</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget_13">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>40</y>
+        <width>571</width>
+        <height>604</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_13">
+       <item>
+        <widget class="QTextEdit" name="textEdit72"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit73"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit74"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit75"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit76"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit77"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit78"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit79"/>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget_15">
+      <property name="geometry">
+       <rect>
+        <x>116</x>
+        <y>40</y>
+        <width>231</width>
+        <height>604</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_15">
+       <item>
+        <widget class="QTextEdit" name="textEdit80"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit81"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit82"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit83"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit84"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit85"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit86"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit87"/>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QLabel" name="label_43">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>20</y>
+        <width>67</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+font-family: &quot;Dosis&quot;;
+background:	rgb(79, 12, 81);
+font-size:10pt;
+color:white;
+}
+
+QLabel:hover {
+font-family: &quot;Dosis&quot;, sans-serif;
+border: 1px solid white;
+background:	#511c66;
+color:white;
+font-size:11pt;
+}QLabel {
+font-family: &quot;Dosis&quot;;
+background:	rgb(79, 12, 81);
+font-size:10pt;
+color:white;
+}
+
+QLabel:hover {
+font-family: &quot;Dosis&quot;, sans-serif;
+border: 1px solid white;
+background:	#511c66;
+color:white;
+font-size:11pt;
+}</string>
+      </property>
+      <property name="text">
+       <string>TIME</string>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBoxThuHom">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>40</y>
+        <width>571</width>
+        <height>601</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QWidget" name="verticalLayoutWidget_25">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>571</width>
+         <height>604</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_25">
+        <item>
+         <widget class="QTextEdit" name="textEdit168"/>
+        </item>
+        <item>
+         <widget class="QTextEdit" name="textEdit169"/>
+        </item>
+        <item>
+         <widget class="QTextEdit" name="textEdit170"/>
+        </item>
+        <item>
+         <widget class="QTextEdit" name="textEdit171"/>
+        </item>
+        <item>
+         <widget class="QTextEdit" name="textEdit172"/>
+        </item>
+        <item>
+         <widget class="QTextEdit" name="textEdit173"/>
+        </item>
+        <item>
+         <widget class="QTextEdit" name="textEdit174"/>
+        </item>
+        <item>
+         <widget class="QTextEdit" name="textEdit175"/>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBoxFri">
+     <property name="geometry">
+      <rect>
+       <x>1</x>
+       <y>30</y>
+       <width>921</width>
+       <height>651</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QGroupBox {
+font-family: &quot;Dosis&quot;;
+font-size:10pt;
+color:white;
+border:0pt;
+}
+QLabel {
+font-family: &quot;Dosis&quot;;
+background:	rgb(79, 12, 81);
+font-size:10pt;
+border:0pt;
+color:white;
+}
+QTextEdit{
+font-size:10pt;
+border: 1px solid black;
+border-radius: 10px;
+color:white;
+}
+
+</string>
+     </property>
+     <property name="title">
+      <string>Friday</string>
+     </property>
+     <widget class="QWidget" name="verticalLayoutWidget_20">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>40</y>
+        <width>91</width>
+        <height>604</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_20">
+       <item>
+        <widget class="QTextEdit" name="textEdit136"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit137"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit138"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit139"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit140"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit141"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit142"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit143"/>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget_17">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>40</y>
+        <width>571</width>
+        <height>604</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_17">
+       <item>
+        <widget class="QTextEdit" name="textEdit120"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit121"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit122"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit123"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit124"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit125"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit126"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit127"/>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QLabel" name="label_45">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>20</y>
+        <width>67</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+font-family: &quot;Dosis&quot;;
+font-size:10pt;
+color:white;
+}</string>
+      </property>
+      <property name="text">
+       <string>SUBJECT</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_55">
+      <property name="geometry">
+       <rect>
+        <x>610</x>
+        <y>20</y>
+        <width>141</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>HOMEWORK</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget_18">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>40</y>
+        <width>16</width>
+        <height>601</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_18">
+       <item>
+        <widget class="QLabel" name="label_46">
+         <property name="text">
+          <string>1</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_47">
+         <property name="text">
+          <string>2</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_48">
+         <property name="text">
+          <string>3</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_49">
+         <property name="text">
+          <string>4</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_50">
+         <property name="text">
+          <string>5</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_51">
+         <property name="text">
+          <string>6</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_52">
+         <property name="text">
+          <string>7</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_53">
+         <property name="text">
+          <string>8</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget_19">
+      <property name="geometry">
+       <rect>
+        <x>116</x>
+        <y>40</y>
+        <width>231</width>
+        <height>604</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_19">
+       <item>
+        <widget class="QTextEdit" name="textEdit128"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit129"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit130"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit131"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit132"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit133"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit134"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit135"/>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QLabel" name="label_54">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>20</y>
+        <width>67</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TIME</string>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBoxFriHom">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>40</y>
+        <width>571</width>
+        <height>611</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+font-family: &quot;Dosis&quot;;
+background:	rgb(79, 12, 81);
+font-size:10pt;
+border: 1px solid black;
+border-radius: 10px;
+color:white;
+}
+
+QPushButton:hover {
+font-family: &quot;Dosis&quot;, sans-serif;
+border: 1px solid white;
+background:	#511c66;
+color:white;
+font-size:11pt;
+}</string>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QWidget" name="verticalLayoutWidget_26">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>571</width>
+         <height>604</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_26">
+        <item>
+         <widget class="QTextEdit" name="textEdit144"/>
+        </item>
+        <item>
+         <widget class="QTextEdit" name="textEdit145"/>
+        </item>
+        <item>
+         <widget class="QTextEdit" name="textEdit146"/>
+        </item>
+        <item>
+         <widget class="QTextEdit" name="textEdit147"/>
+        </item>
+        <item>
+         <widget class="QTextEdit" name="textEdit148"/>
+        </item>
+        <item>
+         <widget class="QTextEdit" name="textEdit149"/>
+        </item>
+        <item>
+         <widget class="QTextEdit" name="textEdit150"/>
+        </item>
+        <item>
+         <widget class="QTextEdit" name="textEdit151"/>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBoxMon">
+     <property name="geometry">
+      <rect>
+       <x>1</x>
+       <y>30</y>
+       <width>921</width>
+       <height>651</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QGroupBox {
+font-family: &quot;Dosis&quot;;
+font-size:10pt;
+color:white;
+border:0pt;
+}
+QLabel {
+font-family: &quot;Dosis&quot;;
+background:	rgb(79, 12, 81);
+font-size:10pt;
+border:0pt;
+color:white;
+}
+QTextEdit{
+font-size:10pt;
+border: 1px solid black;
+border-radius: 10px;
+color:white;
+}
+</string>
+     </property>
+     <property name="title">
+      <string>Monday</string>
+     </property>
+     <widget class="QLabel" name="label_10">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>20</y>
+        <width>67</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>SUBJECT</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget_5">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>40</y>
+        <width>571</width>
+        <height>604</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_5">
+       <item>
+        <widget class="QTextEdit" name="textEdit16"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit17"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit18"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit19"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit20"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit21"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit22"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit23"/>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget_3">
+      <property name="geometry">
+       <rect>
+        <x>116</x>
+        <y>40</y>
+        <width>231</width>
+        <height>604</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <widget class="QTextEdit" name="textEdit0"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit1"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit2"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit3"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit4"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit5"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit6"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit7"/>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QLabel" name="label_9">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>20</y>
+        <width>67</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TIME</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>40</y>
+        <width>16</width>
+        <height>601</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QLabel" name="label_3">
+         <property name="text">
+          <string>1</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_2">
+         <property name="text">
+          <string>2</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>3</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_5">
+         <property name="text">
+          <string>4</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_6">
+         <property name="text">
+          <string>5</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_7">
+         <property name="text">
+          <string>6</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_8">
+         <property name="text">
+          <string>7</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_4">
+         <property name="text">
+          <string>8</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QLabel" name="label_11">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>610</x>
+        <y>20</y>
+        <width>141</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::NoFocus</enum>
+      </property>
+      <property name="lineWidth">
+       <number>0</number>
+      </property>
+      <property name="text">
+       <string>HOMEWORK</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget_4">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>40</y>
+        <width>91</width>
+        <height>604</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_4">
+       <item>
+        <widget class="QTextEdit" name="textEdit8">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit9"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit10"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit11"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit12"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit13"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit14"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit15"/>
+       </item>
+      </layout>
+      <zorder>textEdit8</zorder>
+      <zorder>textEdit9</zorder>
+      <zorder>textEdit10</zorder>
+      <zorder>textEdit11</zorder>
+      <zorder>textEdit13</zorder>
+      <zorder>textEdit14</zorder>
+      <zorder>textEdit15</zorder>
+      <zorder>textEdit12</zorder>
+     </widget>
+     <widget class="QGroupBox" name="groupBoxMonHom">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>40</y>
+        <width>571</width>
+        <height>611</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QWidget" name="verticalLayoutWidget_22">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>571</width>
+         <height>604</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_22">
+        <item>
+         <widget class="QTextEdit" name="textEdit152"/>
+        </item>
+        <item>
+         <widget class="QTextEdit" name="textEdit153"/>
+        </item>
+        <item>
+         <widget class="QTextEdit" name="textEdit154"/>
+        </item>
+        <item>
+         <widget class="QTextEdit" name="textEdit155"/>
+        </item>
+        <item>
+         <widget class="QTextEdit" name="textEdit156"/>
+        </item>
+        <item>
+         <widget class="QTextEdit" name="textEdit157"/>
+        </item>
+        <item>
+         <widget class="QTextEdit" name="textEdit158"/>
+        </item>
+        <item>
+         <widget class="QTextEdit" name="textEdit159"/>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBoxAllSubject">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>30</y>
+       <width>1231</width>
+       <height>651</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QGroupBox {
+font-family: &quot;Dosis&quot;;
+font-size:10pt;
+color:white;
+border:0pt;
+}
+QLabel {
+font-family: &quot;Dosis&quot;;
+background:	rgb(79, 12, 81);
+font-size:10pt;
+border:0pt;
+color:white;
+}
+QTextEdit{
+font-size:10pt;
+border: 1px solid black;
+border-radius: 10px;
+color:white;
+}
+</string>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <widget class="QWidget" name="gridLayoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1231</width>
+        <height>641</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="7" column="1">
+        <widget class="QTextBrowser" name="textBrowserTue8"/>
+       </item>
+       <item row="2" column="4">
+        <widget class="QTextBrowser" name="textBrowserFri3"/>
+       </item>
+       <item row="5" column="2">
+        <widget class="QTextBrowser" name="textBrowserWed6"/>
+       </item>
+       <item row="5" column="0">
+        <widget class="QTextBrowser" name="textBrowserMon6"/>
+       </item>
+       <item row="0" column="1">
+        <widget class="QTextBrowser" name="textBrowserTue1"/>
+       </item>
+       <item row="0" column="4">
+        <widget class="QTextBrowser" name="textBrowserFri1"/>
+       </item>
+       <item row="2" column="1">
+        <widget class="QTextBrowser" name="textBrowserTue3"/>
+       </item>
+       <item row="7" column="4">
+        <widget class="QTextBrowser" name="textBrowserFri8"/>
+       </item>
+       <item row="3" column="3">
+        <widget class="QTextBrowser" name="textBrowserThu4"/>
+       </item>
+       <item row="3" column="4">
+        <widget class="QTextBrowser" name="textBrowserFri4"/>
+       </item>
+       <item row="4" column="0">
+        <widget class="QTextBrowser" name="textBrowserMon5"/>
+       </item>
+       <item row="2" column="0">
+        <widget class="QTextBrowser" name="textBrowserMon3"/>
+       </item>
+       <item row="0" column="3">
+        <widget class="QTextBrowser" name="textBrowserThu1"/>
+       </item>
+       <item row="3" column="0">
+        <widget class="QTextBrowser" name="textBrowserMon4"/>
+       </item>
+       <item row="6" column="0">
+        <widget class="QTextBrowser" name="textBrowserMon7"/>
+       </item>
+       <item row="2" column="3">
+        <widget class="QTextBrowser" name="textBrowserThu3"/>
+       </item>
+       <item row="0" column="2">
+        <widget class="QTextBrowser" name="textBrowserWed1"/>
+       </item>
+       <item row="6" column="1">
+        <widget class="QTextBrowser" name="textBrowserTue7"/>
+       </item>
+       <item row="0" column="0">
+        <widget class="QTextBrowser" name="textBrowserMon1"/>
+       </item>
+       <item row="3" column="2">
+        <widget class="QTextBrowser" name="textBrowserWed4"/>
+       </item>
+       <item row="4" column="3">
+        <widget class="QTextBrowser" name="textBrowserThu5"/>
+       </item>
+       <item row="5" column="4">
+        <widget class="QTextBrowser" name="textBrowserFri6"/>
+       </item>
+       <item row="6" column="3">
+        <widget class="QTextBrowser" name="textBrowserThu7"/>
+       </item>
+       <item row="4" column="4">
+        <widget class="QTextBrowser" name="textBrowserFri5"/>
+       </item>
+       <item row="4" column="2">
+        <widget class="QTextBrowser" name="textBrowserWed5"/>
+       </item>
+       <item row="7" column="2">
+        <widget class="QTextBrowser" name="textBrowserWed8"/>
+       </item>
+       <item row="5" column="1">
+        <widget class="QTextBrowser" name="textBrowserTue6"/>
+       </item>
+       <item row="1" column="2">
+        <widget class="QTextBrowser" name="textBrowserWed2"/>
+       </item>
+       <item row="7" column="0">
+        <widget class="QTextBrowser" name="textBrowserMon8"/>
+       </item>
+       <item row="1" column="0">
+        <widget class="QTextBrowser" name="textBrowserMon2"/>
+       </item>
+       <item row="1" column="4">
+        <widget class="QTextBrowser" name="textBrowserFri2"/>
+       </item>
+       <item row="7" column="3">
+        <widget class="QTextBrowser" name="textBrowserThu8"/>
+       </item>
+       <item row="2" column="2">
+        <widget class="QTextBrowser" name="textBrowserWed3"/>
+       </item>
+       <item row="5" column="3">
+        <widget class="QTextBrowser" name="textBrowserThu6"/>
+       </item>
+       <item row="6" column="2">
+        <widget class="QTextBrowser" name="textBrowserWed7"/>
+       </item>
+       <item row="1" column="1">
+        <widget class="QTextBrowser" name="textBrowserTue2"/>
+       </item>
+       <item row="3" column="1">
+        <widget class="QTextBrowser" name="textBrowserTue4"/>
+       </item>
+       <item row="1" column="3">
+        <widget class="QTextBrowser" name="textBrowserThu2"/>
+       </item>
+       <item row="6" column="4">
+        <widget class="QTextBrowser" name="textBrowserFri7"/>
+       </item>
+       <item row="4" column="1">
+        <widget class="QTextBrowser" name="textBrowserTue5"/>
+       </item>
+       <item row="7" column="5">
+        <widget class="QTextBrowser" name="textBrowserSat8"/>
+       </item>
+       <item row="6" column="5">
+        <widget class="QTextBrowser" name="textBrowserSat7"/>
+       </item>
+       <item row="5" column="5">
+        <widget class="QTextBrowser" name="textBrowserSat6"/>
+       </item>
+       <item row="4" column="5">
+        <widget class="QTextBrowser" name="textBrowserSat5"/>
+       </item>
+       <item row="0" column="5">
+        <widget class="QTextBrowser" name="textBrowserSat1"/>
+       </item>
+       <item row="1" column="5">
+        <widget class="QTextBrowser" name="textBrowserSat2"/>
+       </item>
+       <item row="2" column="5">
+        <widget class="QTextBrowser" name="textBrowserSat3"/>
+       </item>
+       <item row="3" column="5">
+        <widget class="QTextBrowser" name="textBrowserSat4"/>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QPushButton" name="pushButtonNextWeek">
+     <property name="geometry">
+      <rect>
+       <x>930</x>
+       <y>100</y>
+       <width>300</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>180</width>
+       <height>80</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+font-family: &quot;Dosis&quot;;
+background:	rgb(79, 12, 81);
+font-size:10pt;
+border: 1px solid black;
+border-radius: 10px;
+color:white;
+}
+
+QPushButton:hover {
+font-family: &quot;Dosis&quot;, sans-serif;
+border: 1px solid white;
+background:	#511c66;
+color:white;
+font-size:11pt;
+}</string>
+     </property>
+     <property name="text">
+      <string>Next week</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButtonPreviousWeek">
+     <property name="geometry">
+      <rect>
+       <x>930</x>
+       <y>100</y>
+       <width>300</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+font-family: &quot;Dosis&quot;;
+background:	rgb(79, 12, 81);
+font-size:10pt;
+border: 1px solid black;
+border-radius: 10px;
+color:white;
+}
+
+QPushButton:hover {
+font-family: &quot;Dosis&quot;, sans-serif;
+border: 1px solid white;
+background:	#511c66;
+color:white;
+font-size:11pt;
+}</string>
+     </property>
+     <property name="text">
+      <string>Previous week</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButtonClear1">
+     <property name="geometry">
+      <rect>
+       <x>930</x>
+       <y>200</y>
+       <width>300</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>181</width>
+       <height>80</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+font-family: &quot;Dosis&quot;;
+background:	rgb(79, 12, 81);
+font-size:10pt;
+border: 1px solid black;
+border-radius: 10px;
+color:white;
+}
+
+QPushButton:hover {
+font-family: &quot;Dosis&quot;, sans-serif;
+border: 1px solid white;
+background:	#511c66;
+color:white;
+font-size:11pt;
+}</string>
+     </property>
+     <property name="text">
+      <string>Clear homework</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButtonClear2">
+     <property name="geometry">
+      <rect>
+       <x>930</x>
+       <y>200</y>
+       <width>300</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>181</width>
+       <height>80</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+font-family: &quot;Dosis&quot;;
+background:	rgb(79, 12, 81);
+font-size:10pt;
+border: 1px solid black;
+border-radius: 10px;
+color:white;
+}
+
+QPushButton:hover {
+font-family: &quot;Dosis&quot;, sans-serif;
+border: 1px solid white;
+background:	#511c66;
+color:white;
+font-size:11pt;
+}</string>
+     </property>
+     <property name="text">
+      <string>Clear homework</string>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="groupBoxSat">
+     <property name="geometry">
+      <rect>
+       <x>1</x>
+       <y>30</y>
+       <width>921</width>
+       <height>651</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QGroupBox {
+font-family: &quot;Dosis&quot;;
+font-size:10pt;
+color:white;
+border:0pt;
+}
+QLabel {
+font-family: &quot;Dosis&quot;;
+background:	rgb(79, 12, 81);
+font-size:10pt;
+border:0pt;
+color:white;
+}
+QTextEdit{
+font-size:10pt;
+border: 1px solid black;
+border-radius: 10px;
+color:white;
+}
+</string>
+     </property>
+     <property name="title">
+      <string>Saturday</string>
+     </property>
+     <widget class="QLabel" name="label_58">
+      <property name="geometry">
+       <rect>
+        <x>610</x>
+        <y>20</y>
+        <width>141</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>HOMEWORK</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget_27">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>40</y>
+        <width>91</width>
+        <height>604</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_27">
+       <item>
+        <widget class="QTextEdit" name="textEdit96"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit97"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit98"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit99"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit100"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit101"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit102"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit103"/>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QGroupBox" name="groupBoxSatHom">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>40</y>
+        <width>561</width>
+        <height>591</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QWidget" name="verticalLayoutWidget_28">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>571</width>
+         <height>610</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_28">
+        <item>
+         <widget class="QTextEdit" name="textEdit160"/>
+        </item>
+        <item>
+         <widget class="QTextEdit" name="textEdit161"/>
+        </item>
+        <item>
+         <widget class="QTextEdit" name="textEdit162"/>
+        </item>
+        <item>
+         <widget class="QTextEdit" name="textEdit163"/>
+        </item>
+        <item>
+         <widget class="QTextEdit" name="textEdit164"/>
+        </item>
+        <item>
+         <widget class="Line" name="line_12">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QTextEdit" name="textEdit165"/>
+        </item>
+        <item>
+         <widget class="QTextEdit" name="textEdit166"/>
+        </item>
+        <item>
+         <widget class="QTextEdit" name="textEdit167"/>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="label_59">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>20</y>
+        <width>67</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>SUBJECT</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget_29">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>40</y>
+        <width>571</width>
+        <height>604</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_29">
+       <item>
+        <widget class="QTextEdit" name="textEdit104"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit105"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit106"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit107"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit108"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit109"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit110"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit111"/>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget_30">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>40</y>
+        <width>16</width>
+        <height>601</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_30">
+       <item>
+        <widget class="QLabel" name="label_61">
+         <property name="text">
+          <string>1</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_62">
+         <property name="text">
+          <string>2</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_63">
+         <property name="text">
+          <string>3</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_64">
+         <property name="text">
+          <string>4</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_65">
+         <property name="text">
+          <string>5</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_66">
+         <property name="text">
+          <string>6</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_67">
+         <property name="text">
+          <string>7</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_68">
+         <property name="text">
+          <string>8</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget_31">
+      <property name="geometry">
+       <rect>
+        <x>116</x>
+        <y>40</y>
+        <width>231</width>
+        <height>604</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_31">
+       <item>
+        <widget class="QTextEdit" name="textEdit112"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit113"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit114"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit115"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit116"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit117"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit118"/>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit119"/>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QLabel" name="label_69">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>20</y>
+        <width>67</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TIME</string>
+      </property>
+     </widget>
+     <zorder>label_58</zorder>
+     <zorder>verticalLayoutWidget_27</zorder>
+     <zorder>label_59</zorder>
+     <zorder>verticalLayoutWidget_29</zorder>
+     <zorder>verticalLayoutWidget_30</zorder>
+     <zorder>verticalLayoutWidget_31</zorder>
+     <zorder>label_69</zorder>
+     <zorder>groupBoxSatHom</zorder>
+    </widget>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>2</x>
+       <y>0</y>
+       <width>1232</width>
+       <height>27</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QPushButton" name="pushButtonMon">
+        <property name="minimumSize">
+         <size>
+          <width>200</width>
+          <height>25</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+font-family: &quot;Dosis&quot;;
+background:	rgb(79, 12, 81);
+font-size:10pt;
+border: 1px solid black;
+border-radius: 10px;
+color:white;
+}
+
+QPushButton:hover {
+font-family: &quot;Dosis&quot;, sans-serif;
+border: 1px solid white;
+background:	#511c66;
+color:white;
+font-size:11pt;
+}</string>
+        </property>
+        <property name="text">
+         <string>Monday</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButtonTue">
+        <property name="minimumSize">
+         <size>
+          <width>200</width>
+          <height>25</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+font-family: &quot;Dosis&quot;;
+background:	rgb(79, 12, 81);
+font-size:10pt;
+border: 1px solid black;
+border-radius: 10px;
+color:white;
+}
+
+QPushButton:hover {
+font-family: &quot;Dosis&quot;, sans-serif;
+border: 1px solid white;
+background:	#511c66;
+color:white;
+font-size:11pt;
+}</string>
+        </property>
+        <property name="text">
+         <string>Tuesday</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButtonWed">
+        <property name="minimumSize">
+         <size>
+          <width>200</width>
+          <height>25</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+font-family: &quot;Dosis&quot;;
+background:	rgb(79, 12, 81);
+font-size:10pt;
+border: 1px solid black;
+border-radius: 10px;
+color:white;
+}
+
+QPushButton:hover {
+font-family: &quot;Dosis&quot;, sans-serif;
+border: 1px solid white;
+background:	#511c66;
+color:white;
+font-size:11pt;
+}</string>
+        </property>
+        <property name="text">
+         <string>Wednesday</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButtonThu">
+        <property name="minimumSize">
+         <size>
+          <width>200</width>
+          <height>25</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+font-family: &quot;Dosis&quot;;
+background:	rgb(79, 12, 81);
+font-size:10pt;
+border: 1px solid black;
+border-radius: 10px;
+color:white;
+}
+
+QPushButton:hover {
+font-family: &quot;Dosis&quot;, sans-serif;
+border: 1px solid white;
+background:	#511c66;
+color:white;
+font-size:11pt;
+}</string>
+        </property>
+        <property name="text">
+         <string>Thursday</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButtonFri">
+        <property name="minimumSize">
+         <size>
+          <width>200</width>
+          <height>25</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+font-family: &quot;Dosis&quot;;
+background:	rgb(79, 12, 81);
+font-size:10pt;
+border: 1px solid black;
+border-radius: 10px;
+color:white;
+}
+
+QPushButton:hover {
+font-family: &quot;Dosis&quot;, sans-serif;
+border: 1px solid white;
+background:	#511c66;
+color:white;
+font-size:11pt;
+}</string>
+        </property>
+        <property name="text">
+         <string>Friday</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButtonSat">
+        <property name="minimumSize">
+         <size>
+          <width>200</width>
+          <height>25</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+font-family: &quot;Dosis&quot;;
+background:	rgb(79, 12, 81);
+font-size:10pt;
+border: 1px solid black;
+border-radius: 10px;
+color:white;
+}
+
+QPushButton:hover {
+font-family: &quot;Dosis&quot;, sans-serif;
+border: 1px solid white;
+background:	#511c66;
+color:white;
+font-size:11pt;
+}</string>
+        </property>
+        <property name="text">
+         <string>Saturday</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <zorder>groupBoxAllSubject</zorder>
+    <zorder>layoutWidget</zorder>
+    <zorder>pushButtonNextWeek</zorder>
+    <zorder>pushButtonPreviousWeek</zorder>
+    <zorder>pushButtonClear1</zorder>
+    <zorder>pushButtonClear2</zorder>
+    <zorder>groupBoxThu</zorder>
+    <zorder>groupBoxSat</zorder>
+    <zorder>groupBoxWed</zorder>
+    <zorder>groupBoxTue</zorder>
+    <zorder>groupBoxMon</zorder>
+    <zorder>groupBoxFri</zorder>
+   </widget>
+   <widget class="QLabel" name="label_56">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>100</y>
+      <width>102</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+font-family: &quot;Dosis&quot;;
+background:	rgb(79, 12, 81);
+font-size:10pt;
+border:0pt;
+color:white;
+}
+
+QLabel:hover {
+font-family: &quot;Dosis&quot;, sans-serif;
+font-size:11pt;
+}</string>
+    </property>
+    <property name="text">
+     <string>   Your Notes</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonShedule">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>60</width>
+      <height>60</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+font-family: &quot;Dosis&quot;;
+background:	rgb(79, 12, 81);
+font-size:10pt;
+border: 1px solid black;
+border-radius: 10px;
+color:white;
+}
+
+QPushButton:hover {
+font-family: &quot;Dosis&quot;, sans-serif;
+border: 1px solid white;
+background:	#511c66;
+color:white;
+font-size:11pt;
+}</string>
+    </property>
+    <property name="text">
+     <string>Shedule</string>
+    </property>
+    <property name="autoDefault">
+     <bool>true</bool>
+    </property>
+    <property name="default">
+     <bool>true</bool>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="Line" name="line_3">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>120</y>
+      <width>100</width>
+      <height>3</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>100</width>
+      <height>3</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>100</width>
+      <height>3</height>
+     </size>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonSave">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>530</y>
+      <width>60</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+font-family: &quot;Dosis&quot;;
+background:	rgb(79, 12, 81);
+font-size:10pt;
+border: 1px solid black;
+border-radius: 10px;
+color:white;
+}
+
+QPushButton:hover {
+font-family: &quot;Dosis&quot;, sans-serif;
+border: 1px solid white;
+background:	white;
+color:black;
+font-size:11pt;
+}</string>
+    </property>
+    <property name="text">
+     <string>Save</string>
+    </property>
+   </widget>
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>510</y>
+      <width>101</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonExit">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>600</y>
+      <width>60</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+font-family: &quot;Dosis&quot;;
+background:	rgb(79, 12, 81);
+font-size:10pt;
+border: 1px solid black;
+border-radius: 10px;
+color:white;
+}
+
+QPushButton:hover {
+font-family: &quot;Dosis&quot;, sans-serif;
+border: 1px solid white;
+background:	black;
+color:white;
+font-size:11pt;
+}</string>
+    </property>
+    <property name="text">
+     <string>EXIT</string>
+    </property>
+   </widget>
+   <widget class="QScrollArea" name="scrollArea">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>119</y>
+      <width>101</width>
+      <height>341</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border:0pt;</string>
+    </property>
+    <property name="widgetResizable">
+     <bool>true</bool>
+    </property>
+    <widget class="QWidget" name="scrollAreaWidgetContents">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>87</width>
+       <height>1332</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+font-family: &quot;Dosis&quot;;
+background:	rgb(79, 12, 81);
+font-size:10pt;
+border: 1px solid black;
+border-radius: 10px;
+color:white;
+}
+
+QPushButton:hover {
+font-family: &quot;Dosis&quot;, sans-serif;
+border: 1px solid white;
+background:	#511c66;
+color:white;
+font-size:11pt;
+}</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="11" column="0">
+       <widget class="QPushButton" name="pushButtonNote12">
+        <property name="minimumSize">
+         <size>
+          <width>60</width>
+          <height>60</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>60</width>
+          <height>60</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Note 1</string>
+        </property>
+       </widget>
+      </item>
+      <item row="10" column="0">
+       <widget class="QPushButton" name="pushButtonNote11">
+        <property name="minimumSize">
+         <size>
+          <width>60</width>
+          <height>60</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>60</width>
+          <height>60</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Note 1</string>
+        </property>
+       </widget>
+      </item>
+      <item row="15" column="0">
+       <widget class="QPushButton" name="pushButtonNote16">
+        <property name="minimumSize">
+         <size>
+          <width>60</width>
+          <height>60</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>60</width>
+          <height>60</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Note 1</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QPushButton" name="pushButtonNote1">
+        <property name="minimumSize">
+         <size>
+          <width>60</width>
+          <height>60</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>60</width>
+          <height>60</height>
+         </size>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="0">
+       <widget class="QPushButton" name="pushButtonNote7">
+        <property name="minimumSize">
+         <size>
+          <width>60</width>
+          <height>60</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>60</width>
+          <height>60</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Note 1</string>
+        </property>
+       </widget>
+      </item>
+      <item row="16" column="0">
+       <widget class="QPushButton" name="pushButtonNote17">
+        <property name="minimumSize">
+         <size>
+          <width>60</width>
+          <height>60</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>60</width>
+          <height>60</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Note 1</string>
+        </property>
+       </widget>
+      </item>
+      <item row="14" column="0">
+       <widget class="QPushButton" name="pushButtonNote15">
+        <property name="minimumSize">
+         <size>
+          <width>60</width>
+          <height>60</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>60</width>
+          <height>60</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Note 1</string>
+        </property>
+       </widget>
+      </item>
+      <item row="8" column="0">
+       <widget class="QPushButton" name="pushButtonNote9">
+        <property name="minimumSize">
+         <size>
+          <width>60</width>
+          <height>60</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>60</width>
+          <height>60</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Note 1</string>
+        </property>
+       </widget>
+      </item>
+      <item row="13" column="0">
+       <widget class="QPushButton" name="pushButtonNote14">
+        <property name="minimumSize">
+         <size>
+          <width>60</width>
+          <height>60</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>60</width>
+          <height>60</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Note 1</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QPushButton" name="pushButtonNote3">
+        <property name="minimumSize">
+         <size>
+          <width>60</width>
+          <height>60</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>60</width>
+          <height>60</height>
+         </size>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="18" column="0">
+       <widget class="QPushButton" name="pushButtonNote19">
+        <property name="minimumSize">
+         <size>
+          <width>60</width>
+          <height>60</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>60</width>
+          <height>60</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Note 1</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QPushButton" name="pushButtonNote2">
+        <property name="minimumSize">
+         <size>
+          <width>60</width>
+          <height>60</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>60</width>
+          <height>60</height>
+         </size>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="9" column="0">
+       <widget class="QPushButton" name="pushButtonNote10">
+        <property name="minimumSize">
+         <size>
+          <width>60</width>
+          <height>60</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>60</width>
+          <height>60</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Note 1</string>
+        </property>
+       </widget>
+      </item>
+      <item row="17" column="0">
+       <widget class="QPushButton" name="pushButtonNote18">
+        <property name="minimumSize">
+         <size>
+          <width>60</width>
+          <height>60</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>60</width>
+          <height>60</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Note 1</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="QPushButton" name="pushButtonNote5">
+        <property name="minimumSize">
+         <size>
+          <width>60</width>
+          <height>60</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>60</width>
+          <height>60</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Note 1</string>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="0">
+       <widget class="QPushButton" name="pushButtonNote8">
+        <property name="minimumSize">
+         <size>
+          <width>60</width>
+          <height>60</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>60</width>
+          <height>60</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Note 1</string>
+        </property>
+       </widget>
+      </item>
+      <item row="12" column="0">
+       <widget class="QPushButton" name="pushButtonNote13">
+        <property name="minimumSize">
+         <size>
+          <width>60</width>
+          <height>60</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>60</width>
+          <height>60</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Note 1</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QPushButton" name="pushButtonNote4">
+        <property name="minimumSize">
+         <size>
+          <width>60</width>
+          <height>60</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>60</width>
+          <height>60</height>
+         </size>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="19" column="0">
+       <widget class="QPushButton" name="pushButtonNote20">
+        <property name="minimumSize">
+         <size>
+          <width>60</width>
+          <height>60</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>60</width>
+          <height>60</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Note 1</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="0">
+       <widget class="QPushButton" name="pushButtonNote6">
+        <property name="minimumSize">
+         <size>
+          <width>60</width>
+          <height>60</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>60</width>
+          <height>60</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Note 1</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBoxAllNotes">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>0</y>
+      <width>1241</width>
+      <height>681</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QGroupBox" name="groupBoxNote">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1231</width>
+       <height>681</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>20</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <widget class="QLabel" name="labelNameNote">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>60</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Name</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEditNote1">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>0</y>
+        <width>221</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEditNote1">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>50</y>
+        <width>1231</width>
+        <height>631</height>
+       </rect>
+      </property>
+      <property name="cursor" stdset="0">
+       <cursorShape>SizeFDiagCursor</cursorShape>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBoxNote_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1231</width>
+       <height>681</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <widget class="QLabel" name="labelNameNote_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>60</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Name</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEditNote2">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>0</y>
+        <width>221</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEditNote2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>50</y>
+        <width>1231</width>
+        <height>631</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBoxNote_3">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1231</width>
+       <height>681</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <widget class="QLabel" name="labelNameNote_3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>60</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Name</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEditNote3">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>0</y>
+        <width>221</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEditNote3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>50</y>
+        <width>1231</width>
+        <height>631</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBoxNote_4">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1231</width>
+       <height>681</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <widget class="QLabel" name="labelNameNote_4">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>60</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Name</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEditNote4">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>0</y>
+        <width>221</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEditNote4">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>50</y>
+        <width>1231</width>
+        <height>631</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBoxNote_5">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1231</width>
+       <height>681</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <widget class="QLabel" name="labelNameNote_5">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>60</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Name</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEditNote5">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>0</y>
+        <width>221</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEditNote5">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>50</y>
+        <width>1231</width>
+        <height>631</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBoxNote_6">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1231</width>
+       <height>681</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <widget class="QLabel" name="labelNameNote_6">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>60</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Name</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEditNote6">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>0</y>
+        <width>221</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEditNote6">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>50</y>
+        <width>1231</width>
+        <height>631</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBoxNote_7">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1231</width>
+       <height>681</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <widget class="QLabel" name="labelNameNote_10">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>60</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Name</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEditNote7">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>0</y>
+        <width>221</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEditNote7">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>50</y>
+        <width>1231</width>
+        <height>631</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBoxNote_8">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1231</width>
+       <height>681</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <widget class="QLabel" name="labelNameNote_11">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>60</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Name</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEditNote8">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>0</y>
+        <width>221</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEditNote8">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>50</y>
+        <width>1231</width>
+        <height>631</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBoxNote_9">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1231</width>
+       <height>681</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <widget class="QLabel" name="labelNameNote_12">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>60</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Name</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEditNote9">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>0</y>
+        <width>221</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEditNote9">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>50</y>
+        <width>1231</width>
+        <height>631</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBoxNote_10">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1231</width>
+       <height>681</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <widget class="QLabel" name="labelNameNote_13">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>60</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Name</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEditNote10">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>0</y>
+        <width>221</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEditNote10">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>50</y>
+        <width>1231</width>
+        <height>631</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBoxNote_11">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1231</width>
+       <height>681</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <widget class="QLabel" name="labelNameNote11">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>60</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Name</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEditNote11">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>0</y>
+        <width>221</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEditNote11">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>50</y>
+        <width>1231</width>
+        <height>631</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBoxNote_12">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1231</width>
+       <height>681</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <widget class="QLabel" name="labelNameNote_15">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>60</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Name</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEditNote12">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>0</y>
+        <width>221</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEditNote12">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>50</y>
+        <width>1231</width>
+        <height>631</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBoxNote_13">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1231</width>
+       <height>681</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <widget class="QLabel" name="labelNameNote_17">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>60</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Name</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEditNote13">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>0</y>
+        <width>221</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEditNote13">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>50</y>
+        <width>1231</width>
+        <height>631</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBoxNote_14">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1231</width>
+       <height>681</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <widget class="QLabel" name="labelNameNote_18">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>60</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Name</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEditNote14">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>0</y>
+        <width>221</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEditNote14">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>50</y>
+        <width>1231</width>
+        <height>631</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBoxNote_15">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1231</width>
+       <height>681</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <widget class="QLabel" name="labelNameNote_20">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>60</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Name</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEditNote15">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>0</y>
+        <width>221</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEditNote15">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>50</y>
+        <width>1231</width>
+        <height>631</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBoxNote_16">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1231</width>
+       <height>681</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <widget class="QLabel" name="labelNameNote_21">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>60</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Name</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEditNote16">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>0</y>
+        <width>221</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEditNote16">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>50</y>
+        <width>1231</width>
+        <height>631</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBoxNote_17">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1231</width>
+       <height>681</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <widget class="QLabel" name="labelNameNote_22">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>60</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Name</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEditNote17">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>0</y>
+        <width>221</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEditNote17">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>50</y>
+        <width>1231</width>
+        <height>631</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBoxNote_18">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1231</width>
+       <height>681</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <widget class="QLabel" name="labelNameNote_23">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>60</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Name</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEditNote18">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>0</y>
+        <width>221</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEditNote18">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>50</y>
+        <width>1231</width>
+        <height>631</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBoxNote_19">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1231</width>
+       <height>681</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <widget class="QLabel" name="labelNameNote_24">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>60</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Name</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEditNote19">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>0</y>
+        <width>221</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEditNote19">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>50</y>
+        <width>1231</width>
+        <height>631</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBoxNote_20">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1231</width>
+       <height>681</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <widget class="QLabel" name="labelNameNote_25">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>60</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Name</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEditNote20">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>0</y>
+        <width>221</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEditNote20">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>50</y>
+        <width>1231</width>
+        <height>631</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <zorder>groupBoxNote_2</zorder>
+    <zorder>groupBoxNote_3</zorder>
+    <zorder>groupBoxNote_4</zorder>
+    <zorder>groupBoxNote_5</zorder>
+    <zorder>groupBoxNote_6</zorder>
+    <zorder>groupBoxNote_7</zorder>
+    <zorder>groupBoxNote_8</zorder>
+    <zorder>groupBoxNote_9</zorder>
+    <zorder>groupBoxNote_10</zorder>
+    <zorder>groupBoxNote_11</zorder>
+    <zorder>groupBoxNote_12</zorder>
+    <zorder>groupBoxNote_13</zorder>
+    <zorder>groupBoxNote_14</zorder>
+    <zorder>groupBoxNote_15</zorder>
+    <zorder>groupBoxNote_16</zorder>
+    <zorder>groupBoxNote_17</zorder>
+    <zorder>groupBoxNote_18</zorder>
+    <zorder>groupBoxNote_19</zorder>
+    <zorder>groupBoxNote_20</zorder>
+    <zorder>groupBoxNote</zorder>
+   </widget>
+   <widget class="QPushButton" name="pushButtonAdd">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>470</y>
+      <width>30</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+font-family: &quot;Dosis&quot;;
+background:	rgb(79, 12, 81);
+font-size:10pt;
+border: 1px solid black;
+border-radius: 10px;
+color:white;
+}
+
+QPushButton:hover {
+font-family: &quot;Dosis&quot;, sans-serif;
+border: 1px solid white;
+background:	#511c66;
+color:white;
+font-size:11pt;
+}</string>
+    </property>
+    <property name="text">
+     <string>+</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonSub">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>470</y>
+      <width>30</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+font-family: &quot;Dosis&quot;;
+background:	rgb(79, 12, 81);
+font-size:10pt;
+border: 1px solid black;
+border-radius: 10px;
+color:white;
+}
+
+QPushButton:hover {
+font-family: &quot;Dosis&quot;, sans-serif;
+border: 1px solid white;
+background:	#511c66;
+color:white;
+font-size:11pt;
+}</string>
+    </property>
+    <property name="text">
+     <string>-</string>
+    </property>
+   </widget>
+   <zorder>label_56</zorder>
+   <zorder>pushButtonShedule</zorder>
+   <zorder>line_3</zorder>
+   <zorder>pushButtonSave</zorder>
+   <zorder>line</zorder>
+   <zorder>pushButtonExit</zorder>
+   <zorder>scrollArea</zorder>
+   <zorder>pushButtonAdd</zorder>
+   <zorder>pushButtonSub</zorder>
+   <zorder>groupBoxAllNotes</zorder>
+   <zorder>groupBoxShedule</zorder>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1337</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
